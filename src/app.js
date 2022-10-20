@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const data = require('./data');
 
 const express = require('express');
 const app = new express();
