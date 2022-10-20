@@ -12,6 +12,8 @@ let writeJSON = () => {
     fs.writeFileSync(path.join(__dirname, '/json/accounts.json'), accountsJSON,"utf8");
 };
 
-module.exports.accounts;
-module.exports.users;
-module.exports.writeJSON;
+module.exports = {
+    accounts,
+    users,
+    writeJSON
+  };
